@@ -1,17 +1,95 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Cormorant', serif;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none
+}
+.nav--bar{
+  position: absolute;
+  display: flex;
+  align-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  justify-content: space-between;
+  
+}
+.custom--bg{
+  width: 100%;
+  height: 800px;
+  background: #e21010;
+  -webkit-transform: skew(20deg);
+  -moz-transform: skew(20deg);
+  -o-transform: skew(20deg);
+  transform: skew(20deg) rotate(21deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+h1{
+  font-size: 8rem;
+  line-height: 8rem;
+  letter-spacing: 0.3rem;
+  width: 50%;
+  margin: 0 0 30px 50px;
+}
+.loginbutton {
+  font-family : inherit;
+  font-size: x-large;
+  color: white;
+  background: balck;
+  border: none;
+  padding: 9px 40px;
+  background: black;
+  border-radius: 50;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+
+.loginbutton2 {
+  font-size: x-large;
+  font-family : inherit;
+  color: white;
+  background: balck;
+  border: none;
+  padding: 9px 40px;
+  background: black;
+  border-radius: 50;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.Section{
+  font-family: 'Abril Fatface', cursive;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+}
+.second{
+  justify-content: flex-end;
+  position: relative;
+}
+
+.section--two--container{
+  width: 360px;
+  margin-right: 10%;
+  z-index: 1;
 }
 #webgi-canvas {
   width: 100%;
   height: 100%;
-  border-radius: 0.5rem;
+  position: fixed;
+  top: 0;
 }
 #webgi-canvas-container{
-  width: 80vw;
-  height: 80vh;
-  margin: 10vh 10vw;
-  border-radius: 0.5rem;
-
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
 }
