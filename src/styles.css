@@ -69,7 +69,7 @@ body {
 
 .button--hero{
   background: #8e1b1e;
-  color: black;
+  color: white;
   border: none;
   font-weight: 600;
   border-radius: 50px;
@@ -83,7 +83,7 @@ body {
 
 .button--customize{
   background: #8e1b1e;
-  color: black;
+  color: white;
   border: none;
   font-weight: 600;
   border-radius: 50px;
