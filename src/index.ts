@@ -217,22 +217,22 @@ async function setupViewer(){
 
 	})
 
-    document.querySelector('.button--colors.black')?.addEventListener('click', () => {
-		changeColor(new Color(0x383830).convertSRGBToLinear())
-    })
+    // document.querySelector('.button--colors.black')?.addEventListener('click', () => {
+	// 	changeColor(new Color(0x383830).convertSRGBToLinear())
+    // })
 
-    document.querySelector('.button--colors.red')?.addEventListener('click', () => {
-		changeColor(new Color(0xfe2d2d).convertSRGBToLinear())
-    })
+    // document.querySelector('.button--colors.red')?.addEventListener('click', () => {
+	// 	changeColor(new Color(0xfe2d2d).convertSRGBToLinear())
+    // })
 
-    document.querySelector('.button--colors.yellow')?.addEventListener('click', () => {
-		changeColor(new Color(0xffffff).convertSRGBToLinear())
-    })
+    // document.querySelector('.button--colors.yellow')?.addEventListener('click', () => {
+	// 	changeColor(new Color(0xffffff).convertSRGBToLinear())
+    // })
 
-    function changeColor(_colorToBeChanged: Color){
-        drillMaterial.color = _colorToBeChanged;
-        viewer.scene.setDirty()
-    }
+    // function changeColor(_colorToBeChanged: Color){
+    //     drillMaterial.color = _colorToBeChanged;
+    //     viewer.scene.setDirty()
+    // }
 
 }
 
