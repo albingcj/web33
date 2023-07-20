@@ -229,10 +229,10 @@ async function setupViewer(){
 		changeColor(new Color(0xffffff).convertSRGBToLinear())
     })
 
-    // function changeColor(_colorToBeChanged: Color){
-    //     drillMaterial.color = _colorToBeChanged;
-    //     viewer.scene.setDirty()
-    // }
+    function changeColor(_colorToBeChanged: Color){
+        drillMaterial.color = _colorToBeChanged;
+        viewer.scene.setDirty()
+    }
 
 }
 
