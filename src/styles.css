@@ -217,7 +217,7 @@ footer{
   transition: all 0.8s ease;
 }
 
-/*.button--colors:hover{
+.button--colors:hover{
   filter: drop-shadow(0 0 0.75rem rgba(28, 17, 52, 0.704));
   transform: scale(1.5);
 }
@@ -232,7 +232,7 @@ footer{
 
 .black{
   background-color: rgb(74, 76, 79);
-} */
+}
 
 /* MOBILE ADJUSTMENTS */
 
@@ -278,3 +278,5 @@ footer{
     margin-left: 7%;
   }
 }
+
+

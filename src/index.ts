@@ -84,9 +84,9 @@ async function setupViewer(){
 
     viewer.renderer.refreshPipeline()
     //glb file
-    await manager.addFromPath("./assets/car2.glb")
+    await manager.addFromPath("./assets/scene (1).glb")
 
-    const drillMaterial = manager.materials!.findMaterialsByName('Drill_01')[0] as MeshBasicMaterial2
+    // const drillMaterial = manager.materials!.findMaterialsByName('Drill_01')[0] as MeshBasicMaterial2
 
     viewer.getPlugin(TonemapPlugin)!.config!.clipBackground = true // in case its set to false in the glb
 
@@ -154,8 +154,7 @@ async function setupViewer(){
 
     setupScrollanimation()
 
-    // WEBGI UPDATE
-    let needsUpdate = true;
+     let needsUpdate = true;
 
     function onUpdate() {
         needsUpdate = true;
@@ -230,10 +229,10 @@ async function setupViewer(){
 		changeColor(new Color(0xffffff).convertSRGBToLinear())
     })
 
-    function changeColor(_colorToBeChanged: Color){
-        drillMaterial.color = _colorToBeChanged;
-        viewer.scene.setDirty()
-    }
+    // function changeColor(_colorToBeChanged: Color){
+    //     drillMaterial.color = _colorToBeChanged;
+    //     viewer.scene.setDirty()
+    // }
 
 }
 
