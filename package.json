@@ -1,9 +1,10 @@
 {
-  "name": "threejs-gsap-webgi-course",
+  "name": "web33",
   "version": "1.0.0",
-  "description": "WebGi + TypeScript example starter project",
+  "description": "WebGi + TypeScript",
   "main": "index.html",
-  "author": {
+  "Modified by": "Albin George C J",
+  "Inspired from author": {
     "name": "Anderson Mancini",
     "email": "andersonmancini30@gmail.com",
     "url": "https://twitter.com/Andersonmancini/"

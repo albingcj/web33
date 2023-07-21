@@ -13,6 +13,7 @@ body {
 
 .loader{
   background: black;
+  font-size: large;
   color: white;
   position: absolute;
   width: 100%;
@@ -27,11 +28,11 @@ body {
 .progress{
   position: absolute;
   top: 52%;
-  height: 1px;
+  height: 8px;
   width: 100%;
   transform: scaleX(0);
   background-color: white;
-  transition: all 1s ease;
+  transition: all 2s ease;
 }
 
 .nav--bar{
